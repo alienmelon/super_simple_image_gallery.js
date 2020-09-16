@@ -14,7 +14,7 @@ The CSS is easy to change, and it includes some basic transitions.
 
 ### CUSTOMIZING
 
-Images are easy to add or remove. Just edit the EDIT_ME.js file in the "source" folder.
+Images are easy to add or remove. Just edit the **EDIT_ME.js** file in the "source" folder.
 Images are in an array. Mind the formatting...
 
 ```
@@ -30,19 +30,19 @@ arr_images = [
 
 Captions are optional. If you do not want a caption, just leave an empty string.
 
-In the EDIT_ME file you will see two variables for the header and footer (strings). Edit these with your desired text for either header or footer. If you do not wish to have a header or footer, then set the variables to an empty string.
+In the **EDIT_ME** file you will see two variables for the header and footer (strings). Edit these with your desired text for either header or footer. If you do not wish to have a header or footer, then set the variables to an empty string.
 
 ---
 
 ### TO USE
 
-After placing your thumbnails & full-size images in the images folder, and editing EDIT_ME.js, upload all files to your server. Use index.html to access your gallery.
+After placing your thumbnails & full-size images in the images folder, and editing EDIT_ME.js, upload all files to your server. Use **index.html** to access your gallery.
 
 ---
 
 ### FURTHER INSTALL
 
-To run it on your page see the index.html as an example OR do the following...
+To run it on your page see the **index.html** as an example OR do the following...
 
 Link to the stylesheet by copy/pasting the following in your html's head tag:
 
@@ -68,4 +68,4 @@ The gallery is generated automatically.
 
 ---
 
-### Copyright: Images and art in this commit are subject to copyright. Everything else is not.
+### Copyright: Images and art in this commit are subject to copyright. Everything else is not. Use all code however you like.
