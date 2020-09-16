@@ -1,4 +1,4 @@
-# super_simple_image_gallery.js
+# Super Simple Image Gallery
  A very simple, very vanilla, easily customizable, javascript image gallery for showcasing animated gifs or other image formats...
 ---
 
