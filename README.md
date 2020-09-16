@@ -6,6 +6,8 @@ It displays thumbnails. You click on a thumbnail and the full size image display
 Optional image captions are supported. These display over the thumbnail and at the bottom of the full size image area.
 The CSS is easy to change, and it includes some basic transitions.
 
+[Click here for a demo.](http://unicornycopia.com/artdump/)
+
 ![Demo](http://unicornycopia.com/artdump/demo.png)
 
 ---
