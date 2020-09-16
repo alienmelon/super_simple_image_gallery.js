@@ -2,8 +2,6 @@
  A very simple, very vanilla, easily customizable, javascript image gallery for showcasing animated gifs or other image formats...
 ---
 
-This is a very simple vanilla javascript image gallery for showcasing you animated gifs, photos, or any art in any image format.
-
 It displays thumbnails. You click on a thumbnail and the full size image displays. You close the full size image by clicking on it.
 Optional image captions are supported. These display over the thumbnail and at the bottom of the full size image area.
 The CSS is easy to change, and it includes some basic transitions.
