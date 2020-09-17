@@ -95,7 +95,7 @@ a:hover{
 	position: absolute;
 }
 
-/*the fullscreen image*/
+/*the fullscreen image div (container)*/
 .fullImage{
 	z-index: 200;
 	position: fixed;
@@ -124,6 +124,7 @@ a:hover{
 	width: auto;
 	height: auto;
 	max-height: 100vh;
+	max-width: 100vw;
 	display: flex;
 	justify-content: center;
 	top: 50%;
