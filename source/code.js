@@ -35,14 +35,23 @@ function openImage(imgInfo){
 	document.body.appendChild(_container);
 	
 	//populate
-	_container.style.backgroundImage = "url(" + strImgPath +")";
+	//note that if you don't want to let people copy images then
+	//comment out all _img code and comment in the _container.style.backgroundImage
+	//this sets the element's background image to the art, but makes it harder to copy
+	//_container.style.backgroundImage = "url(" + strImgPath +")";
+	_img = document.createElement("img");
+	_img.id = "_IMGlarge";
+	_img.className = "IMGlarge";
+	_img.src = strImgPath;
 	
 	//caption
 	var _caption = document.createElement("div");
 	_caption.id = "_imageCaption";
 	_caption.className = "imageCaption";
 	_caption.innerHTML = imgInfo[1];
+	
 	_container.appendChild(_caption);
+	_container.appendChild(_img);
 	
 	//close it (remove itself on click)...
 	_container.addEventListener('click', function(){
