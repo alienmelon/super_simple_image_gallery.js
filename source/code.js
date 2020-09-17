@@ -50,8 +50,8 @@ function openImage(imgInfo){
 	_caption.className = "imageCaption";
 	_caption.innerHTML = imgInfo[1];
 	
-	_container.appendChild(_caption);
 	_container.appendChild(_img);
+	_container.appendChild(_caption);
 	
 	//close it (remove itself on click)...
 	_container.addEventListener('click', function(){
